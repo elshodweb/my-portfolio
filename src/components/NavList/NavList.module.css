@@ -1,0 +1,26 @@
+.li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.link {
+  display: flex;
+  height: 48px;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  color: var(--all-text);
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+.active {
+  opacity: 1;
+  background: var(--bg-nav-active);
+}
+
+.link:hover {
+  opacity: 0.7;
+  background: var(--bg-nav-active);
+}

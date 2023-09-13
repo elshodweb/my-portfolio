@@ -1,0 +1,15 @@
+html {
+  --bg: #3C3C5B;
+  --some-text: #1dff9e;
+  --all-text: #ffffff;
+  --bg-nav: #2e2e47;
+  --bg-nav-active: #464567;
+}
+
+html[data-theme="light"] {
+  --bg: #3C3C5B;
+  --some-text: #1dff9e;
+  --all-text: #ffffff;
+  --bg-nav: #2e2e47;
+  --bg-nav-active: #464567;
+}

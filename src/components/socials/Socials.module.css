@@ -1,0 +1,28 @@
+
+.socials {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.social {
+  padding: 16px;
+  background: var(--bg-nav-active);
+  border-radius: 16px;
+  transition: transform 0.1s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social img {
+  width: 30px;
+}
+.social:hover {
+  transform: rotate(2deg) scale(1.2);
+  background: var(--bg-nav);
+}
+
+.social:active {
+  transform: rotate(-10deg) scale(0.6);
+}
+

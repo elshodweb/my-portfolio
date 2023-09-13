@@ -1,0 +1,98 @@
+.titleRigth {
+  font-size: 48px;
+  color: var(--all-text);
+  margin-bottom: 16px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.subtitleRigth {
+  text-align: center;
+
+  font-size: 24px;
+  color: var(--all-text);
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+.btn {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-nav-active);
+  font-size: 26px;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 10px;
+  opacity: 1;
+  color: var(--all-text);
+  transition: transform 0.1s ease-in-out;
+  margin-bottom: 90px;
+  position: relative;
+}
+.work .btn{
+  margin-bottom: 40px;
+}
+.btn a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.btn span {
+  font-weight: 700;
+}
+.btn:hover {
+  transform: rotate(2deg) scale(1.1);
+  background: var(--bg-nav);
+}
+
+.btn:active {
+  transform: rotate(-2deg) scale(0.7);
+}
+.line {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.work .line{
+  margin-bottom: 40px;
+}
+.line span {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  display: flex;
+  color: var(--all-text);
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  position: relative;
+}
+
+.line span::before,
+.line span::after {
+  content: "";
+  width: 40%;
+  height: 1px;
+  opacity: 0.4;
+  background: var(--all-text);
+  width: 0;
+  animation: expandWidth 4s infinite; /* Применяем анимацию */
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes expandWidth {
+  0% {
+    width: 0; /* Начальная ширина - 0% */
+  }
+  50% {
+    width: 20%; /* Завершаем анимацию при 50% выполнения, ширина - 100% */
+    background: var(--some-text);
+    opacity: 1;
+  }
+  100% {
+    width: 0; /* Завершаем анимацию с возвратом к начальной ширине - 0% */
+  }
+}

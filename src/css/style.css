@@ -1,0 +1,19 @@
+@import url("./normalizi.css");
+@import url("./variables.css");
+html,
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: var(--bg);
+}
+.nav-warapper {
+  min-height: 100vh;
+  background: var(--bg-nav-active);
+}
+.app {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+  justify-content: center;
+  padding-left: 290px;
+}
