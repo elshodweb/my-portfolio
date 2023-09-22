@@ -1,0 +1,13 @@
+.blog {
+  color: var(--some-text);
+  font-size: 24px;
+  text-align: center;
+  background: var(--bg-nav);
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 100px;
+}

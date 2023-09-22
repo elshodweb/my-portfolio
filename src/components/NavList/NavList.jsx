@@ -11,10 +11,10 @@ const menuList = [
   { id: 3, src: work, path: "/work", name: "Work" },
   { id: 4, src: blog, path: "/blog", name: "Blog" },
 ];
-export const NavList = () => {
+export const NavList = ({ isActive, setIsActive }) => {
   const { pathname } = useLocation();
   return (
-    <ul>
+    <ul className={`${style.ul} ${isActive ? style.open : ""}`}>
       {menuList.length &&
         menuList.map((i) => (
           <li className={`${style.li}`} key={i.id}>
@@ -22,6 +22,7 @@ export const NavList = () => {
               className={`${pathname === i.path ? style.active : ""} ${
                 style.link
               }`}
+              onClick={() => setIsActive(false)}
               to={i.path}
             >
               <img src={i.src} alt={i.name} />

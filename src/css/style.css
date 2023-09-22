@@ -17,3 +17,12 @@ body {
   justify-content: center;
   padding-left: 290px;
 }
+
+
+@media screen and (max-width:800px) {
+  .app{
+    padding-left: 0;
+    padding-top: 90px;
+  }
+
+}

@@ -32,6 +32,12 @@
 .work .btn{
   margin-bottom: 40px;
 }
+.work .titleRigth{
+  margin-bottom: 10px;
+}
+.work .subtitleRigth{
+  margin-bottom: 10px;
+}
 .btn a {
   position: absolute;
   width: 100%;

@@ -2,7 +2,6 @@ import React from "react";
 import message from "./../../assets/icons/message.svg";
 import style from "./HireMe.module.css";
 export const HireMe = ({type}) => {
-  console.log(type);
   return (
     <div className={style[type]}>
       <h2 className={style.titleRigth}>Want to hire me?</h2>
