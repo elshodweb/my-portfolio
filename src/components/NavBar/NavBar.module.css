@@ -54,6 +54,8 @@
   }
   .logo {
     justify-content: start;
+    width: auto;
+    display: inline-block;
   }
   .author {
     display: none;
