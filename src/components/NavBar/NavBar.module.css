@@ -47,10 +47,9 @@
     min-height: auto;
     width: 100%;
     max-width: 100%;
-    opacity: 30;
     position: fixed;
     z-index: 2;
-    opacity: 0.8;
+    opacity: 1;
   }
   .logo {
     justify-content: start;

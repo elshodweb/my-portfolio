@@ -37,6 +37,7 @@
 }
 
 
+
 @media screen and (max-width: 1200px) {
   .row {
     flex-direction: column;
@@ -58,5 +59,22 @@
   }
   .abuot {
     margin: 0 auto;
+  }
+}
+@media screen and (max-width:800px) {
+  .subtitle{
+    margin-bottom: 40px;
+  }
+  .row{
+    gap: 0px;
+  }
+  .column{
+    margin-top: 0;
+  }
+  .title{
+    font-size: 40px;
+  }
+  .column:nth-child(2) {
+    margin-top: 50px;
   }
 }
